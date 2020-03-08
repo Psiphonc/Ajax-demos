@@ -1,3 +1,5 @@
+# 案例源码
+[github](https://github.com/Psiphonc/Ajax-demos)
 # 验证邮箱唯一性
 ```js
 $(function () {
@@ -90,3 +92,5 @@ $(function () {
 4. 为下拉框元素添加表单值改变事件（change）
 5. 当用户选择省份时，根据省份id获取城市信息
 6. 当用户选择城市时，根据城市id获取县城信息
+
+[mongodb省市区数据库](https://github.com/wendell-dev/area-china)
