@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/area.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@1.12.4/dist/jquery.min.js"></script>
+    <script src="/js/template-web.js"></script>
+    <script src="/js/ajax.js"></script>
+    <script src="/js/area.js"></script>
+    <title>省市区联查</title>
+</head>
+<body>
+    <div class="container clearfix">
+        <div class="form-group">
+            <select id="province" class="form-control">
+                <option>请选择省份</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <select id="city" class="form-control">
+                <option>请选择城市</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <select id="county" class="form-control">
+                <option>请选择区县</option>
+            </select>
+        </div>
+    </div>
+    <script id="tpl" type="text/html">
+        <option>请选择{{msg}}</option>
+        {{each val}}
+        <option value="{{@$value._id}}">{{$value.name}}</option>
+        {{/each}}
+    </script>
+</body>
+</html>

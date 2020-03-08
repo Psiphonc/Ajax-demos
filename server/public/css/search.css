@@ -1,0 +1,40 @@
+* {
+    font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;
+    font-size: 16px;
+    color: #666;
+
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.list-group-item {
+    padding: 0 10px;
+    line-height: 40px;
+    border: 1px solid #eee;
+    border-top: none;
+}
+.list-group {
+    position: absolute;
+    left: 0;
+    right: 0;
+    display: none;
+}
+.form-group {
+    position: relative;
+}
+.container {
+    margin: 200px auto;
+    width: 700px;
+}
+
+.container #search {
+    width: 676px;
+    height: 40px;
+    padding: 0 10px;
+    font-size: 16px;
+    padding-bottom: 0;
+    border-radius: 5px;
+    border: 1px solid #eee;
+}
